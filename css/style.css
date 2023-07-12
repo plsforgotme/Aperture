@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Po-Reg";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+    background: #181818;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-top__content {
+    margin: 20px 0;
+}
+
+.header-top__logo {
+    padding-left: 32px;
+    width: 128px;
+    height: 31px;
+}
+
+.header-top__list {
+    font-family: "Po-Reg", sans-serif;
+}
+
+.header-top__info {
+    display: flex;
+}
+
+.header-top-list {
+    padding-left: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-list__item:first-child {
+    font-size: 13px;
+    margin-right: 56px;
+}
